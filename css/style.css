@@ -476,6 +476,11 @@ margin-top: 30px;
     padding: 60px 0px 60px 0px;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+}
+
 .footer-logo {
     color: #fff;
     font-family: Raleway;
@@ -501,6 +506,7 @@ margin-top: 30px;
 
 .footer-list {
     margin-top: 20px;
+    justify-content: baseline;
 }
 
 .footer-item+.footer-item {
@@ -523,6 +529,49 @@ margin-top: 30px;
     color: #2196F3;
 }
 
+.footer-social {
+    margin-left: 70px;
+}
+
+.footer-social-title {
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    
+    color: #fff;
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.footer-social-item {
+    width: 44px;
+    height: 44px;
+    margin-top: 20px;
+
+}
+
+.footer-social-link {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: #fff;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #2196F3;
+}
 
 /*--------------PORTFOLIO----------------*/
 
