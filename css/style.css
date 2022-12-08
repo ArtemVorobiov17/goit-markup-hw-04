@@ -618,7 +618,7 @@ margin-top: 30px;
 
 }
 
-.project-item {
+.project-item:hover {
     max-width: 370px;
     height: auto;
     box-shadow: 
